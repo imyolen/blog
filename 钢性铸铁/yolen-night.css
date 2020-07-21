@@ -1,4 +1,10 @@
-/*夜间模式v4.0*/
+/*夜间模式v4.0
+*新增文章内加密样式
+*原主题没有样式请在app.min.css添加最后三行css
+*优化少量bug
+*预计新增多元化字体样式，大幅度减少字体体积大小
+*关于音乐播放器这个功能，目前思路逐渐清晰，请耐心等候...
+*/
 body.night #footer,body.night .main-nav.flat,body.night .main-nav.float {
 	background-color:#28374a;
 	color:#99a9bf;
