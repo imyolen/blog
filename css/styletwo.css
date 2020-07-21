@@ -18,9 +18,6 @@ body {
 	-moz-osx-font-smoothing:grayscale;
 	font-size:17px
 }
-#wrapper {
-	background:url(https://cdn.yolen.cn/2020/06/20200627041352291.png) no-repeat fixed bottom left,url(https://cdn.yolen.cn/2020/06/20200627041348429.png) no-repeat fixed top right,#f0f2f7
-}
 .popover_faces>img {
 	width:30px
 }
