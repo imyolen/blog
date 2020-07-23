@@ -1,9 +1,21 @@
-@font-face {
+/*@font-face {
 	font-family:oswald;
 	src:url(https://cdn.jsdelivr.net/gh/imyolen/blog@1.0/font/webmo.woff2)
 }
 body {
 	font-family:oswald!important;
+}*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap");
+	* {
+	box-sizing:border-box;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+body {
+        font-size: 14px;
+	font-family:Nunito, 微软雅黑, "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 @font-face {
   font-family: 'iconfont';  /* project id 1727363 */
