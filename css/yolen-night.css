@@ -166,14 +166,7 @@ body.night #comments .form-meta>a:hover{border:1px solid #20b8ff;color:#20b8ff}
 #comments .form-meta>a:hover{border:1px solid #20b8ff;color:#20b8ff}
 body.night .normal_searchBtn{background:rgb(52,66,90)}
 body.night .wp-block-pandastudio-single[posttype=post] .single-wrapper{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
-body.night .gradient.b1{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
-body.night .gradient.b2{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
-body.night .gradient.b3{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
-body.night .gradient.b4{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
-body.night .gradient.b5{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
-body.night .gradient.b6{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
-body.night .gradient.b7{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
-body.night .gradient.b8{box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
+body.night .gradient{opacity:.8;-webkit-box-shadow:unset;box-shadow:unset}
 body.night .nav-tabs>li>a:hover{background-color:#28374a;border:1px solid #233041}
 body.night .pf_tag_cloud>.link>li a{color:#8492a6}
 body.night .beian a{color:#657487}
