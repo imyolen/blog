@@ -1,4 +1,4 @@
-/*夜间模式v5.1
+/*夜间模式v5.3
 *新增文章内加密样式
 *原主题没有样式请在app.min.css添加最后三行css
 *优化少量bug
@@ -190,3 +190,7 @@ body.night #assistance:before{border-left:5px solid #34425a}
 body.night .chat_input::-webkit-input-placeholder{color:#8b9bb0}
 body.night .tip:before{-webkit-box-shadow:0 0 0 2.5px #34425a;box-shadow:0 0 0 2.5px #34425a}
 body.night .tip{opacity:.8;-webkit-box-shadow:unset;box-shadow:unset}
+body.night .share-modal .dashang i{-webkit-box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
+body.night .share-modal .toWeibo i{-webkit-box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
+body.night .share-modal .toWechat i{-webkit-box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
+body.night .share-modal .post-like.like.favorite.done i.fa-heart{-webkit-box-shadow:0 0 0 25px rgb(255 255 255 / 0%),0 0 0 20px rgba(255,83,73,0),0 0 0 0 transparent inset,0 10px 10px -2px rgb(10 17 17 / 20%);box-shadow:0 0 0 25px rgb(255 255 255 / 0%),0 0 0 20px rgba(255,83,73,0),0 0 0 0 transparent inset,0 10px 10px -2px rgb(10 17 17 / 20%)}
