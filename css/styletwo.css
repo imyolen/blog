@@ -1,17 +1,10 @@
-/*@font-face {
-	font-family:oswald;
-	src:url(https://cdn.jsdelivr.net/gh/imyolen/blog@1.0/font/webmo.woff2)
-}
-body {
-	font-family:oswald!important;
-}*/
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap");
 	* {
 	box-sizing:border-box;
-	-webkit-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none;
+	-webkit-user-select:text;
+	-moz-user-select:text;
+	-ms-user-select:text;
+	user-select:text;
 }
 body {
         font-size: 14px;
@@ -19,12 +12,12 @@ body {
 }
 @font-face {
   font-family: 'iconfont';  /* project id 1727363 */
-  src: url('//at.alicdn.com/t/font_1727363_p8py7qa80sb.eot');
-  src: url('//at.alicdn.com/t/font_1727363_p8py7qa80sb.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1727363_p8py7qa80sb.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1727363_p8py7qa80sb.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1727363_p8py7qa80sb.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1727363_p8py7qa80sb.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_1727363_639ew7tjgz5.eot');
+  src: url('//at.alicdn.com/t/font_1727363_639ew7tjgz5.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1727363_639ew7tjgz5.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1727363_639ew7tjgz5.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1727363_639ew7tjgz5.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1727363_639ew7tjgz5.svg#iconfont') format('svg');
 }
 .iconfont {
 	font-family:"iconfont" !important;
