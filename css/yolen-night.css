@@ -194,3 +194,4 @@ body.night .share-modal .dashang i{-webkit-box-shadow:0 10px 13px rgba(0,0,0,0.1
 body.night .share-modal .toWeibo i{-webkit-box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
 body.night .share-modal .toWechat i{-webkit-box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
 body.night .share-modal .post-like.like.favorite.done i.fa-heart{-webkit-box-shadow:0 0 0 25px rgb(255 255 255 / 0%),0 0 0 20px rgba(255,83,73,0),0 0 0 0 transparent inset,0 10px 10px -2px rgb(10 17 17 / 20%);box-shadow:0 0 0 25px rgb(255 255 255 / 0%),0 0 0 20px rgba(255,83,73,0),0 0 0 0 transparent inset,0 10px 10px -2px rgb(10 17 17 / 20%)}
+body.night .badge {color: #8291a8;background-color: #28374a;}
