@@ -99,7 +99,6 @@ body.night article .title_style_02>*{text-shadow:0 1px #263238}
 body.night .jv-switcher+label:after{background:#99a9bf}
 body.night .jv-switcher+label:before{background:#233041}
 body.night .jv-switcher:checked+label:before{-webkit-box-shadow:0 0 0 13px #233041 inset;box-shadow:0 0 0 13px #233041 inset}
-body.night #coverflow.unfull,body.night .beian a img,body.night .pf_user_info .authorImg,body.night .postLists.cards .card .cover,body.night .relate-posts .posts{filter:brightness(75%)}
 body.night .post_nav>.nav>li.active a{color:#bac4d2;-webkit-box-shadow:0 13px 15px transparent;box-shadow:0 13px 15px transparent}
 body.night .comment-reply-link:before{color:#8290a2;text-shadow:0 1px 0 #ffffff03}
 body.night .favlink-card .icon{filter:brightness(80%)}
