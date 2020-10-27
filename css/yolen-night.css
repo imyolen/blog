@@ -19,7 +19,7 @@ body.night #comments,body.night .pf_tag_cloud>.tag>li>a{background-color:#34425a
 body.night .pf_tag_cloud>.link>li a{text-shadow:0 1px #fff0}
 body.night .pf_microblog>ul .main{border:1px solid #28374a;box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);background:#28374a;box-shadow:0 10px 15px rgba(31,45,61,.1),inset 0 0 0 1px hsla(0,0%,100%,.06);box-shadow:0 10px 15px rgba(31,45,61,.1),inset 0 0 0 1px hsla(0,0%,100%,.06);transition:background .25s}
 body.night .pf_microblog>ul .main *{text-shadow:0 1px transparent;color:#99a9bf}
-body.night .pf_microblog>ul .main:before{display:block;position:absolute;left:4px;top:0;right:4px;height:20px;border-radius:10px;background:0 0}
+body.night .pf_microblog>ul .main:before{display:block;position:absolute;left:4px;top:0;right:4px;height:20px;border-radius:10px;background: linear-gradient(rgba(255, 255, 255, 0.05),hsla(0, 0%, 100%, 0.02));}
 body.night .pf_tag_cloud>.navigator>li a{background-color:#334148;color:#738192;-webkit-box-shadow:0 13px 15px rgba(0,0,0,.1)}
 body.night .pf_tag_cloud>.navigator>li:nth-child(even) a{background-color:#263238;color:#738192;background:-webkit-linear-gradient(350deg,#334148,#334148);-webkit-box-shadow:0 13px 15px rgba(0,0,0,.1)}
 body.night .pf_tag_cloud>.navigator>li a:before{border-right:15.5px solid #334148}
