@@ -24,14 +24,13 @@ body.night .pf_microblog>ul .main:before{display:block;position:absolute;left:4p
 body.night .pf_tag_cloud>.navigator>li a{background-color:#334148;color:#738192;-webkit-box-shadow:0 13px 15px rgba(0,0,0,.1)}
 body.night .pf_tag_cloud>.navigator>li:nth-child(even) a{background-color:#263238;color:#738192;background:-webkit-linear-gradient(350deg,#334148,#334148);-webkit-box-shadow:0 13px 15px rgba(0,0,0,.1)}
 body.night .pf_tag_cloud>.navigator>li a:before{border-right:15.5px solid #334148}
-body.night .submit-comment{background:#334148;background:-webkit-linear-gradient(left,#28374a,#34425a);background:linear-gradient(90deg,#28374a,#34425a);color:#99a9bf;-webkit-box-shadow:0 3px 5px rgb(35,48,65);box-shadow:0 3px 5px rgb(36,50,67)}
 body.night .postLists .readMore{background:linear-gradient(90deg,rgba(254,254,255,0),rgb(52,66,90),rgba(202,209,219,0)) 0 0/100% 1px no-repeat,linear-gradient(90deg,rgba(255,255,255,0),#34425a,rgba(255,255,255,0)) 0 1px/100% 1px no-repeat,radial-gradient(ellipse 50% 50% at 50% 0,rgb(38,51,67),rgba(202,209,219,0)) 0 2px no-repeat}
 body.night .postLists .readMore:before{background:radial-gradient(ellipse 50% 50% at 50% bottom,rgba(247,247,247,0),rgba(255,255,255,0))}
 body.night .article_wrapper.post .share-modal{background:#34425a;border-top:1px solid #303e54}
 body.night .relate-posts{background:#34425a;box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
 body.night article .title_style_01:after{background:#46555d73}
 body.night .post-model:after{background:#303e54}
-body.night .comment-input{background:#233041;color:#99a9bf;border:1px solid rgba(70,85,93,0)}
+body.night .comment-input{background:#34425a;color:#99a9bf;border:1px solid #475669;}
 body.night #comments .form-meta>a{border:1px solid #46555d;color:#99a9bf}
 body.night .pdmsg_buttons button:last-child{color:#8492a6}
 body.night .pdmsg_title,body.night .postLists.cards .card h2{color:#99a9bf}
@@ -119,7 +118,7 @@ body.night .long-model .more{color:#8b9bb0;background:-webkit-gradient(linear,le
 body.night .postLists.lists .card .cover{filter:brightness(75%);-webkit-box-shadow:0 13px 15px #24303b85;box-shadow:0 13px 15px #24303b85}
 body.night #commentnavi>*{border:1px solid #586c77;color:#99a9bf;display:inline-block;padding:4px 10px;font-size:14px}
 body.night #commentnavi .current{color:#20a0ff;border-color:#818ea0}
-body.night .popover-title{background:#233041;border-bottom-color:#34425a;color:#6d7c8e}
+body.night .popover-title{background: #34425a;border-bottom-color: #28374a;color: #6d7c8e;}
 body.night .comment-input:empty:before{color:#6d7c8e}
 body.night .pf_microblog>ul .main img{-webkit-box-shadow:0 1px rgba(255,255,255,0);box-shadow:0 1px rgba(255,255,255,0);filter:brightness(75%)}
 body.night .vcard .name:after{background:#8290a2}
