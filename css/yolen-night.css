@@ -5,8 +5,7 @@
 *预计新增多元化字体样式，大幅度减少字体体积大小
 *关于音乐播放器这个功能，目前思路逐渐清晰，请耐心等候...
 */
-body.night #footer,body.night .main-nav.flat,body.night .main-nav.float{background-color:#28374a;color:#99a9bf;-webkit-box-shadow:0 1px #34425a0 0 #34425a,0 2px #34425a;box-shadow:0 1px #34425a,0 0 transparent,0 2px #34425a}
-body.night #footer{border-top:1px solid #33415a;background:linear-gradient(#637893,#637893 1px,#465568 0,#334154 20px,#243243 0,#334154);box-shadow:0 -5px 8px var(--gray_opacity_2)}
+body.night #footer,body.night .main-nav.flat,body.night .main-nav.float{background-color:#28374a;color:#99a9bf;-webkit-box-shadow:0 1px #34425a0 0 #34425a,0 2px #34425a;box-shadow:0 3px 5px rgba(31,45,61,.05),0 2px 3px rgba(31,45,61,.08),inset 0 -1px hsla(0,0%,100%,.05)}body.night #footer{border-top:1px solid #33415a;background:linear-gradient(#637893,#637893 1px,#465568 0,#334154 20px,#243243 0,#334154);box-shadow:0 -5px 8px var(--gray_opacity_2)}
 body.night #wrapper{background-image:none;background-color:#28374a}
 body.night .main-nav.float{-webkit-box-shadow:0 10px 13px rgba(31,45,61,0.4),0 0 1px rgba(31,45,61,0.1);box-shadow:0 10px 13px rgba(31,45,61,0.4),0 0 1px rgba(31,45,61,0.1)}
 body.night #comment{background-color:#233041;color:#99a9bf}
@@ -38,7 +37,7 @@ body.night .pdmsg_title,body.night .postLists.cards .card h2{color:#99a9bf}
 body.night #baiduAudioPlayer{color:#99a9bf;background:linear-gradient(90deg,#34425a,#28374a);box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
 body.night .comment-reply-link{border:1px solid #334148;background:linear-gradient(90deg,#28374a,#28374a);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
 body.night .vcard .meta{border-bottom:1px solid #46555d73}
-body.night .floatTools .tool-button{background:-webkit-gradient(linear,left top,left bottom,from(#34425a),to(#222e3e));text-shadow:0 1px #ffffff00;box-shadow:0 2px 2px rgba(52,66,90,0.3),0 0 0 1px rgba(52,66,90,0.3) inset}
+body.night .floatTools .tool-button{background:-webkit-gradient(linear,left top,left bottom,from(#334159),to(#3f4d67));text-shadow:0 1px #334148;box-shadow:0 0 0 #334148,0 0 0 0 #334148 inset}
 body.night body html{background:#263238}
 body.night .favlink-card{box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);background:linear-gradient(#303e54,#2b394b 88%,#283445)}
 body.night .favlink-card .title{text-shadow:0 1px #ffffff00}
@@ -151,7 +150,7 @@ body.night .post_nav>.nav::before{background:linear-gradient(#263238,#6e7e8e);-w
 body.night .post_nav>.nav::after{background:linear-gradient(#263238,#6e7e8e);-webkit-box-shadow:0 0 0 1px #6e7e8e inset,0 0 0 2px #263238 inset,0 4px 3px rgba(25,33,37,0.5);box-shadow:0 0 0 1px #6e7e8e inset,0 0 0 2px #263238 inset,0 4px 3px rgba(25,33,37,0.5)}
 body.night .post_nav>.nav>li.active a{background:-webkit-linear-gradient(350deg,#34425a,rgba(29,36,41,0.35));background:linear-gradient(100deg,#34425a,rgba(29,36,41,0.35));-webkit-box-shadow:0 13px 15px rgba(27,36,40,0.5);box-shadow:0 13px 15px rgba(27,36,40,0.5)}
 body.night .post_nav>.nav>li.active a::after{background:#909fb4;-webkit-box-shadow:0 0 0 1px #8e9db2 inset,0 0 0 2px #1d2529 inset;box-shadow:0 0 0 1px #909fb4 inset,0 0 0 2px #1d2429 inset}
-body.night .floatTools .tool-button:hover{border-color:#34425a;color:#fff;text-shadow:0 -1px #2c384c;-webkit-box-shadow:0 3px 3px rgba(38,50,56,0.5),0 0 3px 16px #46555d inset;box-shadow:0 3px 3px rgba(38,50,56,0.5),0 0 3px 16px #2c384c inset}
+body.night .floatTools .tool-button:hover{color:#fff;text-shadow:0 -1px #2c384c;-webkit-box-shadow:0 3px 3px rgba(38,50,56,0.5),0 0 3px 16px #46555d inset;box-shadow:0 3px 3px rgba(38,50,56,0.5),0 0 3px 16px #2c384c inset}
 body.night .comment-reply-link:hover{border-color:#233041;-webkit-box-shadow:0 6px 8px rgba(38,50,56,0.5),0 0 0 11px #233041 inset;box-shadow:0 6px 8px rgba(38,50,56,0.5),0 0 0 11px #233041 inset;background:#334148;-webkit-transition:.25s,background 0s ease .25s;transition:.25s,background 0s ease .25s}
 body.night .normal_searchBtn:hover{background:#445573;color:#fff;box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);-webkit-transition:.25s;transition:.25s}
 body.night .display-switcher[pandaTab]>.menu>li:not(.active)>a:hover{text-shadow:0 0 10px rgb(52,66,90),0 0 13px rgb(52,66,90)}
