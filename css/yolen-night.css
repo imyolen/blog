@@ -13,7 +13,8 @@ body.night #comments,body.night .article_wrapper.post{box-shadow:0 10px 13px rgb
 body.night .article_wrapper.post{background-color:#34425a;color:#99a9bf}
 body.night #comments{color:#8290a2}
 body.night .toggle_sidebar{background-color:#34425a;color:#99a9bf}
-body.night .pdmsg_modal{background-color:#233041;color:#738192;box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
+body.night .pdmsg_modal{background-color:#34425a;color:#738192;box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
+body.night .pdmsg_modal:hover{border-color:#20a0ff}
 body.night .pdmsg_modal:focus{border-color:#20a0ff;-webkit-box-shadow:0 0 0 3px rgba(32,160,255,.2)!important;box-shadow:0 0 0 3px rgba(32,160,255,.2);-webkit-transition:.25s;transition:.25s}
 body.night .pdmsg_modal.prompt .prompt_input_wrapper .input{background-color:#34425a;color:#738192;border:1px solid #657487;}
 body.night #comments,body.night .pf_tag_cloud>.tag>li>a{background-color:#34425a}
