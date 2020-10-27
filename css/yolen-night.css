@@ -122,7 +122,8 @@ body.night .popover-title{background:#233041;border-bottom-color:#34425a;color:#
 body.night .comment-input:empty:before{color:#6d7c8e}
 body.night .pf_microblog>ul .main img{-webkit-box-shadow:0 1px rgba(255,255,255,0);box-shadow:0 1px rgba(255,255,255,0);filter:brightness(75%)}
 body.night .vcard .name:after{background:#8290a2}
-body.night .pf_microblog>ul>li:hover .main{-webkit-box-shadow:0 3px 5px rgba(26,34,39,0.0);box-shadow:0 3px 5px rgba(26,34,39,0.0)}
+body.night .pf_microblog>ul>li:hover .main{-webkit-box-shadow:0 5px 10px rgb(36,50,67),inset 0 0 0 1px hsla(0,0%,100%,.06);box-shadow:0 5px 10px rgb(36,50,67),inset 0 0 0 1px hsla(0,0%,100%,.06)
+    border:1px solid #28374a}
 body.night .postLists.lists .card .cover:hover{-webkit-transform:translateY(13px);transform:translateY(13px);-webkit-box-shadow:0 3px 5px rgba(26,34,39,0.3);box-shadow:0 3px 5px rgba(26,34,39,0.3)}
 body.night .postLists.cards .card:hover{-webkit-transform:translateY(13px);transform:translateY(13px);-webkit-box-shadow:0 3px 5px rgba(26,34,39,0.3);box-shadow:0 3px 5px rgba(26,34,39,0.3)}
 body.night .pf_tag_cloud>.navigator>li a:hover{-webkit-transform:translateY(6px);transform:translateY(6px);-webkit-box-shadow:0 3px 3px rgba(0,0,0,.15);box-shadow:0 3px 3px rgba(0,0,0,.15)}
