@@ -50,7 +50,7 @@ body.night .post_nav>.nav>li a::after{box-shadow:0 0 0 1px #657484 inset,0 0 0 2
 body.night .postLists .readMore a{background:linear-gradient(#354355,#28374a 23%,#34425a 50%,#34425a);box-shadow:0 -1px #334148 inset,1px 0 #334148 inset,-1px 0 #34425a inset,0 3px 5px #253442;border:1px solid #34425a;color:#99a9bf}
 .postLists.lists .card .tags:before,body.night .postLists.lists .card .tags:after{background:linear-gradient(90deg,rgba(255,255,255,0),#ffffff00)}
 body.night .postLists.cards .card{-webkit-box-shadow:0 13px 15px #24303b85;box-shadow:0 13px 15px #24303b85}
-body.night .postLists.cards .card .meta{background:linear-gradient(90deg,#34425a,#34425a);box-shadow:0 10px 15px rgba(31,45,61,.1),inset 0 0 0 1px hsla(0,0%,100%,.06);box-shadow:0 10px 15px var(--gray_opacity_1),0 0 0 1px hsla(0,0%,100%,.06) inset;transition:background .25s}
+body.night .postLists.cards .card .meta{background:linear-gradient(90deg,#34425a,#34425a);box-shadow:0 10px 15px rgba(31,45,61,.1),inset 0 0 0 1px hsla(0,0%,100%,.06);box-shadow:0 10px 15px rgba(31,45,61,.1),inset 0 0 0 1px hsla(0,0%,100%,.06);transition:background .25s}
 body.night .postLists.cards .card .date{color:#738195}
 body.night .postLists.cards .card .date:after{background:linear-gradient(90deg,rgba(255,255,255,0),#fff0)}
 .postLists.cards .card .tags:before,body.night .postLists.cards .card .tags:after{background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),to(#fff0));background:-webkit-linear-gradient(left,rgba(255,255,255,0),#fff0);background:linear-gradient(90deg,rgba(255,255,255,0),#fff0)}
@@ -65,7 +65,7 @@ body.night .sidebarMenu[pandaTab] .anchor{background:linear-gradient(#34425a,#34
 body.night .sidebarMenu[pandaTab]>.menu{background:#243040;-webkit-box-shadow:0 1px #34425a,0 1px 50px rgba(0,0,0,0.3) inset;box-shadow:0 1px #34425a,0 1px 50px rgba(0,0,0,0.3) inset}
 body.night .sidebarMenu[pandaTab]>.menu>li.active>a{color:#99a9bf}
 body.night .display-switcher[pandaTab] .anchor{background:#34425a;-webkit-box-shadow:0 8px 13px rgba(15,21,27,0.42) inset,0 1px #28374a;box-shadow:0 8px 13px rgba(15,21,27,0.42) inset,0 1px #28374a}
-body.night .categoryNav[pandaTab]>.menu>li.active>a{color:#99a9bf;background:#34425a;box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
+body.night .categoryNav[pandaTab]>.menu>li.active>a{color:#99a9bf;background:#34425a;box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);border: 1px solid #657487;}
 body.night .pf_microblog>ul,body.night .pf_tag_cloud>.navigator{border-left:1px solid #34425a;-webkit-box-shadow:1px 0 #34425a inset;box-shadow:1px 0 #34425a inset}
 body.night .pf_microblog>ul>li:before{background:#42505a;box-shadow:0 0 0 1px #657484 inset,0 0 0 2px #334148 inset}
 body.night .pf_tag_cloud>.navigator{border-left:1px solid #324047;box-shadow:1px 0 #334148 inset}
