@@ -106,8 +106,8 @@ body.night .sidebarMenu[pandaTab]>.menu>li>a{text-shadow:0 1px transparent}
 body.night .close{color:#fff;text-shadow:0 1px 0 #ffffff00}
 body.night div.popover.top.in{background:#34425a;-webkit-box-shadow:0 7px 7px rgba(0,0,0,0.1);box-shadow:0 7px 7px rgba(0,0,0,0.1)}
 body.night .popover.top>.arrow:after{border-top-color:#34425a}
-.pandastudio_format_description[data-placement=left]:after{border-left-color:rgb(255 255 255 / 0%);top:-22px;left:-23px;-webkit-transform:translateX(10px);transform:translateX(10px)}
-.pandastudio_format_description[data-placement=left]:before{top:5px;left:-23px;-webkit-transform:translateX(calc(-100% + 10px));transform:translateX(calc(-100% + 10px))}
+.pandastudio_format_description[data-placement=left]:after{border-left-color:rgb(255 255 255 / 0%);top:10px;-webkit-transform:translateX(10px);transform:translateX(10px)}
+.pandastudio_format_description[data-placement=left]:before{top:5px;-webkit-transform:translateX(calc(-100% + 10px));transform:translateX(calc(-100% + 10px))}
 body.night .pandastudio_format_description:before{color:#e2e8f1;background:#192023;text-shadow:0 1px 2px transparent}
 /*body.night .pandastudio_format_description[data-placement=left]:after{border-left-color:#192023}*/
 body.night .long-model-wrapper>.long-model:last-child{border-bottom:1px solid #ffffff00;-webkit-box-shadow:0 1px 0 transparent inset,0 1px 0 transparent;box-shadow:0 1px 0 transparent inset,0 1px 0 transparent}
