@@ -168,6 +168,7 @@ body.night .wp-block-pandastudio-single[posttype=post] .single-wrapper{box-shado
 body.night .gradient{opacity:.8;-webkit-box-shadow:unset;box-shadow:unset}
 body.night .nav-tabs>li>a:hover{background-color:#28374a;border:1px solid #233041}
 body.night .pf_tag_cloud>.link>li a{color:#8492a6}
+body.night .pdModal_background{background: radial-gradient(at center,rgba(31,45,61,.3),rgb(0 0 0 / 80%));background: radial-gradient(at center,rgba(31,45,61,.3),rgb(0 0 0 / 80%));}
 body.night .beian a{color:#657487}
 body.night .long-model .more:hover{background:linear-gradient(#3c4a5d,#263445);right:0;-webkit-box-shadow:0 5px 5px rgba(26,33,36,.38),0 0 4px 20px transparent inset,0 -1px 2px transparent inset;box-shadow:0 5px 5px rgba(26,33,36,.38),0 0 4px 20px transparent inset,0 -1px 2px transparent inset;-webkit-transition:.35s;transition:.35s}
 body.night .postLists.lists .card .description{color:#6c7b8d}
