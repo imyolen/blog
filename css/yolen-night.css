@@ -36,6 +36,7 @@ body.night .pdmsg_buttons button:last-child{color:#8492a6}
 body.night .pdmsg_title,body.night .postLists.cards .card h2{color:#99a9bf}
 body.night #baiduAudioPlayer{color:#99a9bf;background:linear-gradient(90deg,#34425a,#28374a);box-shadow:0 10px 13px rgba(31,45,61,.1),0 0 1px rgba(31,45,61,.1);box-shadow:0 10px 13px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1)}
 body.night .comment-reply-link{background:-webkit-gradient(linear,left top,left bottom,from(#3a485b),to(#293749));background:-webkit-linear-gradient(#3c4a5d,#2b394b);background:linear-gradient(#3c4a5d,#263445);color:#8b9bb0;text-decoration:none;border:1px solid #34425a;-webkit-box-shadow:0 5px 5px rgba(26,33,36,.38),0 0 4px 20px transparent inset,0 -1px 2px transparent inset;box-shadow:0 5px 5px rgba(26,33,36,.38),0 0 4px 20px transparent inset,0 -1px 2px transparent inset;}
+body.night .comment-reply-link:hover{;border:1px solid #20a0ff;-webkit-box-shadow:0 6px 8px rgba(32,160,255,.5),0 0 0 11px #20a0ff inset;box-shadow:0 6px 8px rgba(32,160,255,.5),0 0 0 11px #20a0ff inset;background:#20a0ff;-webkit-transition:.25s;transition:.25s}
 body.night .vcard .meta{border-bottom:1px solid #46555d73}
 body.night .floatTools .tool-button{background:-webkit-gradient(linear,left top,left bottom,from(#334159),to(#3f4d67));text-shadow:0 1px #334148;box-shadow:0 0 0 #334148,0 0 0 0 #334148 inset}
 body.night body html{background:#263238}
@@ -99,7 +100,6 @@ body.night .jv-switcher+label:after{background:#99a9bf}
 body.night .jv-switcher+label:before{background:#233041}
 body.night .jv-switcher:checked+label:before{-webkit-box-shadow:0 0 0 13px #233041 inset;box-shadow:0 0 0 13px #233041 inset}
 body.night .post_nav>.nav>li.active a{color:#bac4d2;-webkit-box-shadow:0 13px 15px transparent;box-shadow:0 13px 15px transparent}
-body.night .comment-reply-link:before{color:#8290a2;text-shadow:0 1px 0 #ffffff03}
 body.night .favlink-card .icon{filter:brightness(80%)}
 body.night .sidebarMenu[pandaTab]>.menu>li:not(.active)>a:hover{text-shadow:0 0 10px #ffffff03,0 0 13px #fff0}
 body.night .sidebarMenu[pandaTab]>.menu>li>a{text-shadow:0 1px transparent}
