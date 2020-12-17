@@ -141,13 +141,9 @@ $(function () {
         `
 		<div id="g-shortcode" style="display:none">
 			<a id="g-video">视频</a>
-			<a id="g-collapse">折叠框</a>
 			<a id="g-bili">B站视频</a>
-			<a id="g-art">文章跳转</a>
 			<a id="g-notice">提示框</a>
-			<a id="g-notice-block">提示块</a>
 			<a id="g-warn">警告框</a>
-			<a id="g-warn-block">警告块</a>
 			<a id="g-dl">下载按钮</a>
 			<a id="g-tag">标签</a>
 	</div>
@@ -177,11 +173,6 @@ $(function () {
             myField = document.getElementById("text"),
                 insertAtCursor(myField, '\n\n[collapse title=""]\n\n[/collapse]')
         });
-    $(document).on("click", "#g-art",
-        function () {
-            myField = document.getElementById("text"),
-                insertAtCursor(myField, '[art]文章ID[/art]')
-        });
     $(document).on("click", "#g-bili",
         function () {
             myField = document.getElementById("text"),
@@ -191,16 +182,6 @@ $(function () {
         function () {
             myField = document.getElementById("text"),
                 insertAtCursor(myField, '[notice]内容[/notice]')
-        });
-    $(document).on("click", "#g-notice-block",
-        function () {
-            myField = document.getElementById("text"),
-                insertAtCursor(myField, '[notice-block]内容[/notice-block]')
-        });
-    $(document).on("click", "#g-warn-block",
-        function () {
-            myField = document.getElementById("text"),
-                insertAtCursor(myField, '[warn-block]内容[/warn-block]')
         });
     $(document).on("click", "#g-warn",
         function () {
