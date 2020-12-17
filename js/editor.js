@@ -146,6 +146,7 @@ $(function () {
 			<a id="g-warn">警告框</a>
 			<a id="g-dl">下载按钮</a>
 			<a id="g-tag">标签</a>
+                        <a id="g-ps">相册</a>
 	</div>
 		`
     );
@@ -197,6 +198,11 @@ $(function () {
         function () {
             myField = document.getElementById("text"),
                 insertAtCursor(myField, '[tag]内容[/tag]')
+        });
+    $(document).on("click", "#g-ps",
+        function () {
+            myField = document.getElementById("text"),
+                insertAtCursor(myField, '[photos]添加markdown[/photos]')
         });
     $(document).on("click", "#wmd-owo-button", function () {
         OwO_show();
